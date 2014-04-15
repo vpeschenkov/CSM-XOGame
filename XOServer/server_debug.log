@@ -1,8 +1,6 @@
-2014-04-15 12:19:09,435 [DEBUG][main][debug] - Соединение разорвано: "java.net.ConnectException: Connection refused: connect: localhost"
+2014-04-15 12:35:55,956 [DEBUG][main][debug] - Соединение разорвано: "java.net.ConnectException: Connection refused: connect: localhost"
 Connection is broken: "java.net.ConnectException: Connection refused: connect: localhost" [90067-171]
-2014-04-15 12:19:09,438 [DEBUG][main][debug] - Server start on port 3135
-2014-04-15 12:19:47,471 [DEBUG][main][debug] - Соединение разорвано: "java.net.ConnectException: Connection refused: connect: localhost"
+2014-04-15 12:35:55,959 [DEBUG][main][debug] - Server start on port 3135
+2014-04-15 12:38:27,851 [DEBUG][main][debug] - Соединение разорвано: "java.net.ConnectException: Connection refused: connect: localhost"
 Connection is broken: "java.net.ConnectException: Connection refused: connect: localhost" [90067-171]
-2014-04-15 12:20:21,049 [DEBUG][main][debug] - Соединение разорвано: "java.net.ConnectException: Connection refused: connect: localhost"
-Connection is broken: "java.net.ConnectException: Connection refused: connect: localhost" [90067-171]
-2014-04-15 12:20:21,052 [DEBUG][main][debug] - Server start on port 3135
+2014-04-15 12:38:27,854 [DEBUG][main][debug] - Server start on port 3135

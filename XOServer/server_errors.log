@@ -1,7 +1,4 @@
-2014-04-15 12:19:09,433 [ERROR][main][error] - Соединение разорвано: "java.net.ConnectException: Connection refused: connect: localhost"
+2014-04-15 12:35:55,955 [ERROR][main][error] - Соединение разорвано: "java.net.ConnectException: Connection refused: connect: localhost"
 Connection is broken: "java.net.ConnectException: Connection refused: connect: localhost" [90067-171]
-2014-04-15 12:19:47,470 [ERROR][main][error] - Соединение разорвано: "java.net.ConnectException: Connection refused: connect: localhost"
-Connection is broken: "java.net.ConnectException: Connection refused: connect: localhost" [90067-171]
-2014-04-15 12:19:47,472 [ERROR][main][error] - Address already in use: JVM_Bind
-2014-04-15 12:20:21,048 [ERROR][main][error] - Соединение разорвано: "java.net.ConnectException: Connection refused: connect: localhost"
+2014-04-15 12:38:27,849 [ERROR][main][error] - Соединение разорвано: "java.net.ConnectException: Connection refused: connect: localhost"
 Connection is broken: "java.net.ConnectException: Connection refused: connect: localhost" [90067-171]
