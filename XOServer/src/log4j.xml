@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration debug="false" xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+    <appender name="ErrorsAppender" class="org.apache.log4j.RollingFileAppender">
+        <param name="File" value="server_errors.log"/>
+        <param name="MaxFileSize" value="100MB"/>
+        <param name="MaxBackupIndex" value="10"/>
+        <param name="Encoding" value="UTF-8"/>
+        <layout class="org.apache.log4j.EnhancedPatternLayout">
+            <param name="ConversionPattern" value="%d{ISO8601} [%-5p][%t][%c] - %m%n"/>
+        </layout>
+    </appender>
+	
+	<appender name="DebugAppender" class="org.apache.log4j.RollingFileAppender">
+        <param name="File" value="server_debug.log"/>
+        <param name="MaxFileSize" value="100MB"/>
+        <param name="MaxBackupIndex" value="10"/>
+        <param name="Encoding" value="UTF-8"/>
+        <layout class="org.apache.log4j.EnhancedPatternLayout">
+            <param name="ConversionPattern" value="%d{ISO8601} [%-5p][%t][%c] - %m%n"/>
+        </layout>
+    </appender>
+	
+	<appender name="InfoAppender" class="org.apache.log4j.RollingFileAppender">
+        <param name="File" value="info_server.log"/>
+        <param name="MaxFileSize" value="100MB"/>
+        <param name="MaxBackupIndex" value="10"/>
+        <param name="Encoding" value="UTF-8"/>
+        <layout class="org.apache.log4j.EnhancedPatternLayout">
+            <param name="ConversionPattern" value="%d{ISO8601} [%-5p][%t][%c] - %m%n"/>
+        </layout>
+    </appender>
+
+
+    <logger name="debug">
+        <level value="debug"/>
+        <appender-ref ref="DebugAppender"/>
+    </logger>
+
+    <logger name="info">
+        <level value="info"/>
+        <appender-ref ref="InfoAppender"/>
+    </logger>
+	
+	<logger name="error">
+        <level value="error"/>
+        <appender-ref ref="ErrorsAppender"/>
+    </logger>
+
+</log4j:configuration>

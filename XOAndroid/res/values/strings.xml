@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tic-tac-toe</string>
+    <string name="password_hint">Password</string>
+    <string name="name_hint">Name</string>
+    <string name="authorization_button">Login</string>
+    <string name="exit">Exit</string>
+
+</resources>

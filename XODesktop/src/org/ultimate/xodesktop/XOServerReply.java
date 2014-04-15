@@ -1,0 +1,30 @@
+package org.ultimate.xodesktop;
+
+public interface XOServerReply {
+
+	/* */
+	int OPERATION_WAS_SUCCESSFUL = 100;
+	int AUTHENTIFICATIONS_IS_SUCCESFULL = 101;
+	int YOU_MAKE_A_MOVE = 102;
+	int YOU_WIN = 103;
+	int YOU_LOSSE = 104;
+	int DREW = 105;
+	int PARTHNER_MAKE_A_MOVE = 106;
+	int START_GAME = 107;
+	int END_GAME = 108;
+	int ADDE_IN_QUEUE = 109;
+	int YOU_MOV = 110;
+	int YOU_NOT_MOV = 111;
+
+	/* */
+	int OPERATION_WAS_NOT_SUCCESFUL = 200;
+	int THIS_NAME_IS_ALREADY_TAKEN = 201;
+	int CAN_NOT_MAKE_A_MOVE = 202;
+	int NOT_FOUND_PARTHER = 203;
+	int NOT_LOGGED = 204;
+	int ALREADY_GOING = 205;
+	int GAME_OVER = 206;
+
+	/* */
+	int OPERATION_CAN_NOT_BE_PERFORMED = 300;
+}

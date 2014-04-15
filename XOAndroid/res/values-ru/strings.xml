@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Крестики-нолики</string>
+    <string name="password_hint">Введите пароль</string>
+    <string name="name_hint">Введите имя</string>
+    <string name="authorization_button">Войти</string>
+    <string name="exit">Выход</string>
+
+</resources>
